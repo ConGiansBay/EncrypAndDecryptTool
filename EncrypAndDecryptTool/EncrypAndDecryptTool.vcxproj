@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="largeNumber_128.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="largeNumber_128.cpp" />
+    <ClCompile Include="RSACipher.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <ProjectGuid>{A40F4E36-7177-4C9F-93AC-968B9E1679D8}</ProjectGuid>
@@ -110,13 +117,6 @@
       <AdditionalDependencies />
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\TH\Lab 2\Group3_Lab2_Report\SourceCode_Ex2\largeNumber_128.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\TH\Lab 2\Group3_Lab2_Report\SourceCode_Ex2\largeNumber_128.cpp" />
-    <ClCompile Include="..\..\..\TH\Lab 2\Group3_Lab2_Report\SourceCode_Ex2\RSACipher.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

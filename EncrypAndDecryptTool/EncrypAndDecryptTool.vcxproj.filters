@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\TH\Lab 2\Group3_Lab2_Report\SourceCode_Ex2\largeNumber_128.h">
+    <ClInclude Include="largeNumber_128.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\TH\Lab 2\Group3_Lab2_Report\SourceCode_Ex2\largeNumber_128.cpp">
+    <ClCompile Include="largeNumber_128.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\TH\Lab 2\Group3_Lab2_Report\SourceCode_Ex2\RSACipher.cpp">
+    <ClCompile Include="RSACipher.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
