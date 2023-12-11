@@ -111,6 +111,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\TH\Lab 2\Group3_Lab2_Report\SourceCode_Ex2\largeNumber_128.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\TH\Lab 2\Group3_Lab2_Report\SourceCode_Ex2\largeNumber_128.cpp" />
+    <ClCompile Include="..\..\..\TH\Lab 2\Group3_Lab2_Report\SourceCode_Ex2\RSACipher.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
